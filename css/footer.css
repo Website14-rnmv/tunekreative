@@ -1,0 +1,205 @@
+:root {
+    --var-black: #151515;
+    --var-azul: #253858;
+    --var-gris: #404040;
+    --var-naranja: #fdba00;
+    --swiper-theme-color: #fdba00!important;
+    --var-p: #d3d3d3;
+}
+
+footer {
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #08111fee;
+    box-shadow: 0 26px 48px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.find {
+    width: 30%;
+}
+
+.logo-foot img {
+    width: 250px;
+}
+
+.text-foot p {
+    color: rgb(237, 237, 237);
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.text-foot span {
+    color: rgb(169, 169, 169);
+    font-size: 13px;
+    margin: 10px 0 0 0;
+}
+
+.enlaces-rapidos {
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.enlaces-rapidos h3 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.enlaces-rapidos a {
+    color: rgb(169, 169, 169);
+    font-size: 14px;
+    text-decoration: none;
+    margin: 5px 0;
+    transition:.5s;
+}
+
+.enlaces-rapidos a:hover{
+    color: var(--var-naranja);
+    transition:.5s;
+}
+
+.contact-foot {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.contact-foot span {
+    color: white;
+    font-size: 14px;
+}
+
+.redes-foot {
+    width: 15%;
+}
+
+.redes-foot h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.icon-red-foot {
+    display: flex;
+    align-items: center;
+}
+
+.icon-red-foot a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.icon-red-foot a i {
+    color: white;
+}
+
+/*--------- 4TO BLOQUE ----------*/
+
+.cabezas{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../image/maquetado/cabezas.jpg');
+    background-size: cover;
+}
+.btn-cabezas{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 17%;
+}
+.btn-cabezas a{
+    background-color: var(--var-naranja);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px ;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    footer{
+        flex-direction: column;
+    }
+    .find{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .enlaces-rapidos{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+    }
+    .redes-foot{
+        width: 100%;
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cabezas{
+        height: 300px;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    footer{
+        flex-direction: column;
+        padding: 7% 5%;
+    }
+    .find{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .enlaces-rapidos{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+    }
+    .redes-foot{
+        width: 100%;
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo-foot img{
+        width: 200px;
+    }
+    .enlaces-rapidos h3{
+        font-size: 16px;
+    }
+    .enlaces-rapidos a{
+        font-size: 13px;
+    }
+    .cabezas{
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .btn-cabezas{
+        top: 10px;
+    }
+    .btn-cabezas a{
+        font-size: 11px;
+    }
+}

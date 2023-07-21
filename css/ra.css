@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --var-black: #151515;
+    --var-azul: #253858;
+    --var-gris: #404040;
+    --var-naranja: #fdba00;
+    --swiper-theme-color: #fdba00 !important;
+    --var-p: #d3d3d3;
+}
+
+
+.portada-service {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 22, 50, 0.784), rgba(0, 24, 54, 0.662)), url('../image/maquetado/realidad\ aumentada\ banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title-service {
+    width: 20%;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.title-service h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 2px 4px black;
+}
+
+.title-service h3 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 2px 4px black;
+    font-weight: 600;
+    line-height: 0px;
+}
+
+/*------------------- BLOCK ONE ---------------------------*/
+.ra-content {
+    width: 100%;
+    margin: 0;
+    padding: 5% 10%;
+    left: 0;
+    background-color: #0a1324ee;
+    box-shadow: 0 26px 48px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+}
+
+.title-ra {
+    padding: 0 15% 0 15%;
+}
+
+.title-ra h1 {
+    color: white;
+    font-weight: 25px;
+    text-shadow: 0 2px 4px black;
+    text-align: center;
+}
+
+.title-ra h3 {
+    font-size: 18px;
+    color: var(--var-p);
+    text-align: center;
+    font-weight: 500;
+}
+
+.primer-ra {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5% 10% 2% 10%;
+}
+
+.ra-left {
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.top-ra-left {
+    width: 100%;
+    height: 40%;
+}
+
+.top-ra-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.bot-ra-left {
+    width: 100%;
+    height: 60%;
+    margin-top: 25px;
+}
+
+.bot-ra-left video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.ra-right {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-left: 15px;
+}
+
+.ra-right video {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.description-ra {
+    width: 100%;
+    padding: 0% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qr-ra {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.qr-ra img {
+    width: 120px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.qr-ra p {
+    width: 50%;
+    color: white;
+}
+
+.concept {
+    width: 65%;
+}
+
+.concept p {
+    color: var(--var-p);
+
+}
+
+
+/*--------- 2DO BLOQUE ----------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.column-img .swiper-slide img {
+    border-radius: 5px;
+}
+
+
+/*--------- 3er BLOQUE ----------*/
+
+.block-three-service {
+    width: 100%;
+    padding: 10% 0% 2% 0%;
+    position: relative;
+}
+
+.title-block-three {
+    width: 100%;
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+
+.title-block-three h2 {
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.696);
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.title-block-three p {
+    color: var(--var-p);
+    margin-top: 5px;
+}
+
+.munecos {
+    width: 100%;
+
+}
+
+.munecos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    border-radius: 5px;
+}
+
+.mySwiper3 {
+    height: auto;
+    padding: 5% 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .title-service h1 {
+        font-size: 35px;
+    }
+
+    .title-service h3 {
+        line-height: 30px;
+    }
+
+    .ra-content {
+        padding: 5%;
+    }
+
+    .title-ra h3 {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .qr-ra {
+        width: 50%;
+    }
+
+    .qr-ra img {
+        width: 100px;
+    }
+
+    .qr-ra p {
+        font-size: 13px;
+    }
+
+    .concept p {
+        font-size: 13px;
+    }
+
+    .title-block-three h2 {
+        font-size: 35px;
+    }
+
+    .btn-two a {
+        font-size: 12px;
+    }
+
+    .title-block-three {
+        padding: 2% 0;
+    }
+
+    .munecos img {
+        height: 200px;
+    }
+
+    .title-four {
+        width: 50%;
+    }
+
+    .mySwiper6 {
+        width: 50%;
+    }
+
+    .card-swiper .swiper-slide {
+        width: 100%;
+        height: 310px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .portada-service {
+        background-size: cover;
+        background-repeat: none;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .title-service {
+        width: 100%;
+        top: 20px;
+        text-align: center;
+        left: 0;
+        position: relative;
+    }
+
+    .title-service h1 {
+        font-size: 30px;
+    }
+
+    .title-service h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .ra-content {
+        padding: 5%;
+    }
+
+    .title-ra {
+        padding: 0%;
+    }
+
+    .title-ra h1 {
+        font-size: 20px;
+    }
+
+    .title-ra h3 {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .primer-ra {
+        padding: 5% 0;
+        flex-direction: column;
+    }
+
+    .ra-left {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .top-ra-left {
+        width: 48%;
+        height: 120px;
+    }
+
+    .bot-ra-left {
+        width: 48%;
+        height: 120px;
+        margin: 0;
+    }
+
+    .ra-right {
+        width: 100%;
+        height: 300px;
+        margin: 0 0 15px 0;
+        order: -1;
+    }
+
+    .description-ra {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .qr-ra {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qr-ra img {
+        width: 90px;
+    }
+
+    .qr-ra p {
+        font-size: 13px;
+    }
+
+    .concept {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concept p {
+        font-size: 13px;
+        margin-top: 13px;
+    }
+
+    .block-three-service {
+        padding: 5%;
+    }
+
+    .title-block-three {
+        padding: 2% 0;
+    }
+
+    .title-block-three h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .title-block-three p {
+        font-size: 13px;
+    }
+
+    .munecos img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+
+
+}

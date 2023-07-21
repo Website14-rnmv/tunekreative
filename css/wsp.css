@@ -1,0 +1,50 @@
+.btn-wsp{
+    position: fixed;
+    right: 1.5%;
+    bottom: 4%;
+    z-index: 99;
+}
+.btn-wsp a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-wsp a img{
+    width: 50px;
+    height: 50px;
+    transition:.5s;
+}
+
+.btn-wsp a img:hover{
+    width: 55px;
+    height: 55px;
+    transition:.5s;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .btn-wsp{
+        position: fixed;
+        right: 3%;
+        bottom: 4%;
+        z-index: 99;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .btn-wsp{
+        position: fixed;
+        right: 3%;
+        bottom: 3%;
+        z-index: 99;
+    }
+    .btn-wsp a img{
+        width: 40px;
+        height: 40px;
+        transition:.5s;
+    }
+    
+    .btn-wsp a img:hover{
+        width: 45px;
+        height: 45px;
+        transition:.5s;
+    }
+}
