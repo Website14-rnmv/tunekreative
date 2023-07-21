@@ -1,0 +1,350 @@
+:root {
+    --var-black: #151515;
+    --var-azul: #253858;
+    --var-gris: #404040;
+    --var-naranja: #fdba00;
+    --swiper-theme-color: #fdba00!important;
+    --var-p: #d3d3d3;
+}
+
+/*--------- PORTADA ----------*/
+body{
+    overflow-x: hidden;
+}
+
+.portada-service {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 22, 50, 0.847), rgba(0, 24, 54, 0.742)), url('../image/maquetado/contactos_banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title-service {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.title-service h1 {
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 2px 4px black;
+    border-bottom: 3px solid white;
+    margin: 0 0 10px 0;
+}
+
+.title-service p {
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    text-shadow: 0 2px 4px black;
+    font-weight: 400;
+}
+.content-contacto{
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #0a1324ee;
+}
+.form-contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto-directo{
+    width: 60%;
+    display: flex;
+    padding: 0;
+}
+.wid-directo{
+    width: 100%;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin:0 10px ;
+    text-align: center;
+}
+.wid-directo i{
+    color: var(--var-naranja);
+    font-size: 25px;
+}
+.wid-directo h3{
+    color: var(--var-p);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 7px 0 2px 0;
+}
+.wid-directo span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mail{
+    width: 60%;
+    padding: 10px;
+    margin-top: 30px;
+}
+.title-mail{
+    width: 100%;
+    text-align: center;
+}
+.title-mail h2{
+    font-size: 30px;
+    color: white;
+}
+.title-mail p{
+    color: var(--var-p);
+    margin-bottom: 30px;
+}
+.widget-mail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.wid-mail{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.wid-mail label{
+    color: var(--var-p);
+    font-size: 12px;
+}
+.wid-mail input{
+    background: none;
+    outline: none;
+    border: 1px solid var(--var-p);
+    padding: 10px 8px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-top: 2px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+}
+.wid-mail input:focus{
+    border: 1px solid var(--var-naranja);
+    transition: .5s;
+}
+.wid-descrip{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wid-descrip label{
+    color: var(--var-p);
+    font-size: 12px;
+}
+.wid-descrip textarea{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 1px solid var(--var-p);
+    padding: 10px 8px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-top: 2px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+}
+.btn-form{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-form input{
+    color: white;
+    font-weight: 500;
+    background-color: var(--var-naranja);
+    padding: 10px 25px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+.btn-form input:hover{
+    background-color: #d09902;
+   transition: .5s;
+}
+.redes-contacto{
+    width: 100%;
+    padding: 5% 0 0 0;
+}
+.title-redes-contacto{
+    text-align: center;
+}
+.title-redes-contacto h2{
+    color: white;
+    font-size: 35px;
+}
+.title-redes-contacto h4{
+    color: var(--var-p);
+    font-size: 25px;
+    font-weight: 400;
+}
+.icon-redes-contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.icon-redes-contacto a{
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--var-naranja);
+    color: var(--var-naranja);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: .5s;
+}
+.icon-redes-contacto a:hover{
+    background-color:  var(--var-naranja);
+    color: white;
+    transition: .5s;
+}
+.icon-redes-contacto a i{
+    color: var(--var-naranja);
+    font-size: 25px;
+}
+.icon-redes-contacto a:hover i{
+    color: white;
+}
+.maps{
+    width: 100%;
+    height: 60vh;
+}
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .portada-service{
+        height: 50vh;
+    }
+    .title-service h1 {
+        font-size: 35px;
+    }
+
+    .title-service h3 {
+        line-height: 30px;
+    }
+    .content-contacto{
+        padding: 5% ;
+    }
+    .contacto-directo{
+        width: 100%;
+    }
+    .mail{
+        width: 100%;
+    }
+    .title-redes-contacto h2{
+        font-size: 30px;
+    }
+    .title-redes-contacto h4{
+        font-size: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .portada-service {
+        background-size: cover;
+        background-repeat: none;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .title-service {
+        width: 100%;
+        top: 20px;
+        text-align: center;
+        left: 0;
+        position: relative;
+    }
+
+    .title-service h1 {
+        font-size: 20px;
+    }
+
+    .title-service p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .content-contacto{
+        padding: 5% ;
+    }
+    .contacto-directo{
+        width: 100%;
+        flex-direction: column;
+        order: 1;
+        margin-top: 15px;
+    }
+    .wid-directo{
+        margin: 5px 0;
+    }
+    .mail{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .title-mail h2{
+        font-size: 25px;
+    }
+    .title-mail p{
+        font-size: 12px;
+        margin: 0 0px 5px 0;
+    }
+    .widget-mail{
+        flex-direction: column;
+        margin: 0;
+    }
+    .wid-mail{
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .wid-descrip{
+        margin-top: 10px;
+    }
+    .title-redes-contacto h2{
+        font-size: 22px;
+    }
+    .btn-form input{
+        width: 100%;
+    }
+    .title-redes-contacto h4{
+        font-size: 15px;
+    }
+    .icon-redes-contacto a{
+        width: 45px;
+        height: 45px;
+    }
+    .wid-directo h3{
+        font-size: 12px;
+    }
+    .wid-directo span{
+        font-size: 18px;
+    }
+    .icon-redes-contacto a i{
+        font-size: 17px;
+    }
+    .maps{
+        height: 40vh;
+    }
+}
