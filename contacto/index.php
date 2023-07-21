@@ -50,7 +50,7 @@
     </div>
 
     <div class="content-contacto">
-        <form class="form-contacto">
+        <form method="POST" action="send.php" class="form-contacto">
             <div class="contacto-directo">
                 <div class="wid-directo">
                     <i class="fa-solid fa-phone"></i>
@@ -71,26 +71,26 @@
                 <div class="widget-mail">
                     <div class="wid-mail">
                         <label for="">Nombre(s) *</label>
-                        <input type="text">
+                        <input name="txtNombre" type="text">
                     </div>
                     <div class="wid-mail">
                         <label for="">Apellidos *</label>
-                        <input type="text">
+                        <input name="txtApellido" type="text">
                     </div>
                 </div>
                 <div class="widget-mail">
                     <div class="wid-mail">
                         <label for="">Teléfono *</label>
-                        <input type="text">
+                        <input name="txtTel" type="text">
                     </div>
                     <div class="wid-mail">
                         <label for="">Correo eletrónico *</label>
-                        <input type="text">
+                        <input name="txtCorreo" type="text">
                     </div>
                 </div>
                 <div class="wid-descrip">
                     <label for="">Comentanos sobre el proyecto:</label>
-                    <textarea name="" id="" ></textarea>
+                    <textarea name="txtDescripcion" id="" ></textarea>
                 </div>
                 <div class="btn-form">
                     <input type="submit" value="Enviar">
@@ -168,6 +168,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="../js/swipper.js"></script>
     <script src="../js/nav.js"></script>
