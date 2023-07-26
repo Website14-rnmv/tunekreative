@@ -80,12 +80,12 @@
                 </div>
                 <div class="widget-mail">
                     <div class="wid-mail">
-                        <label for="">Teléfono *</label>
-                        <input name="txtTel" type="text">
+                        <label for="">Teléfono: *</label>
+                        <input required name="txtTel" type="text">
                     </div>
                     <div class="wid-mail">
-                        <label for="">Correo eletrónico *</label>
-                        <input name="txtCorreo" type="text">
+                        <label for="">Correo eletrónico: *</label>
+                        <input required name="txtCorreo" type="text">
                     </div>
                 </div>
                 <div class="wid-descrip">
