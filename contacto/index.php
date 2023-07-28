@@ -70,12 +70,12 @@
                 </div>
                 <div class="widget-mail">
                     <div class="wid-mail">
-                        <label for="">Nombre(s) *</label>
-                        <input name="txtNombre" type="text">
+                        <label for="">Nombre(s): *</label>
+                        <input required name="txtNombre" type="text">
                     </div>
                     <div class="wid-mail">
-                        <label for="">Apellidos *</label>
-                        <input name="txtApellido" type="text">
+                        <label for="">Apellidos: *</label>
+                        <input required name="txtApellido" type="text">
                     </div>
                 </div>
                 <div class="widget-mail">

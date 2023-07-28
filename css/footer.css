@@ -105,18 +105,55 @@ footer {
 }
 
 /*--------- 4TO BLOQUE ----------*/
-
+.produccion{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0% 10% 0 10%;
+}
+.wid-prod{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: translateY(50px);
+}
+.wid-prod h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+.wid-prod ul{
+    padding: 0 2%;
+}
+.wid-prod ul li{
+    color: var(--var-p);
+}
+.wid-prod img{
+    width: 120px;
+}
 .cabezas{
     width: 100%;
-    height: 80vh;
-    background-image: url('../image/maquetado/cabezas.jpg');
-    background-size: cover;
+    height: auto;
+    background-color: #000000d6;
+
+}
+.img-cabezas{
+    width: 100%;
+    padding: 0;
+}
+.img-cabezas img{
+    width: 100%;
+    transform: translateY(10px);
 }
 .btn-cabezas{
     width: 100%;
     text-align: center;
     position: relative;
-    top: 17%;
+    transform: translateY(150px);
 }
 .btn-cabezas a{
     background-color: var(--var-naranja);
@@ -150,9 +187,27 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-    .cabezas{
-        height: 300px;
-        background-size: contain;
+
+    .produccion{
+        padding: 5%;
+    }
+    .wid-prod h5{
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    .wid-prod ul{
+        padding: 0 2%;
+    }
+    .wid-prod ul li{
+        color: var(--var-p);
+        font-size: 13px;
+    }
+    .wid-prod img{
+        width: 100px;
+    }
+    .btn-cabezas{
+        transform: translateY(50px);
     }
 }
 
@@ -191,7 +246,6 @@ footer {
     }
     .cabezas{
         width: 100%;
-        height: 150px;
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -202,4 +256,30 @@ footer {
     .btn-cabezas a{
         font-size: 11px;
     }
+    .wid-prod h5{
+        font-size: 18px;
+        color: white;
+        font-weight: 500;
+    }
+    .produccion{
+        flex-direction: column;
+        padding: 0% 2% 20% 2%;
+    }
+    .wid-prod{
+        margin: 10px 0;
+    }
+    .wid-prod ul{
+        padding: 0 2%;
+    }
+    .wid-prod ul li{
+        color: var(--var-p);
+        font-size: 13px;
+    }
+    .wid-prod img{
+        width: 100px;
+    }
+    .btn-cabezas{
+        transform: translateY(20px);
+    }
+
 }

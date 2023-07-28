@@ -73,7 +73,7 @@ if ($resultado) {
        <table style="width: 100%; padding:0 25%; background-color: rgb(241, 241, 241);">
        <br>
        <tr style="margin:15px 0; width:100%; text-align:center;">
-       <td style="width: 100%; background-color: white; padding: 3%;"><img width="150px" src="https://tunekreative.com/avance2/image/logo-tunek-mas-colores-2.png" alt=""></td>
+       <td style="width: 100%; background-color: white; padding: 3%;"><img width="150px" src="https://tunekreative.com/image/logo-tunek-mas-colores-2.png" alt=""></td>
        </tr>
        <tr>
        <td style="width: 100%; background-color: white; padding: 3%;"><h2 style="text-align: center;">¡Nuevo Lead!</h2></td>
