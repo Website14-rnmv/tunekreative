@@ -52,8 +52,6 @@
     padding: 5% 10%;
     left: 0;
     background-color: #0a1324ee;
-    box-shadow: 0 26px 48px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(12px);
 }
 
 .title-ra {
@@ -74,99 +72,78 @@
     font-weight: 500;
 }
 
-.primer-ra {
+
+.video-ra-central{
     width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 5% 10% 2% 10%;
+    height: 80vh;
+    padding: 0% 0%;
+    margin: 5% 0;
+}
+.video-ra-central video{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
-.ra-left {
-    width: 40%;
-    height: 100vh;
-    position: relative;
+.squad-ra{
+    width: 100%;
+    padding: 5% 0%;
+}
+.title-squad h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 0 2px 4px black;
+    text-align: center;
+    background-color: rgba(21, 18, 18, 0.54);
+    padding: 3%;
+    border-radius: 5px;
+    
+}
+.widget-ra{
+    width: 100%;
+    padding: 5% 0 0 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.wid-ra{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+.qr-info-ra{
+    width: 32%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
-
-.top-ra-left {
-    width: 100%;
-    height: 40%;
-}
-
-.top-ra-left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.bot-ra-left {
-    width: 100%;
-    height: 60%;
-    margin-top: 25px;
-}
-
-.bot-ra-left video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.ra-right {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    margin-left: 15px;
-}
-
-.ra-right video {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-.description-ra {
-    width: 100%;
-    padding: 0% 12%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.qr-ra {
-    width: 40%;
-    display: flex;
-    align-items: center;
-}
-
-.qr-ra img {
-    width: 120px;
-    padding: 5px;
-    background-color: white;
-    border-radius: 5px;
-    margin-right: 20px;
-}
-
-.qr-ra p {
-    width: 50%;
+.qr-info-ra span{
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
     color: white;
 }
-
-.concept {
+.qr-info-ra img{
+    width: 110px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.img-ra{
     width: 65%;
+    height: 350px;
+    margin: 0 20px;
 }
-
-.concept p {
-    color: var(--var-p);
-
+.img-ra video{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
 }
-
-
 /*--------- 2DO BLOQUE ----------*/
 
 .swiper {
@@ -244,7 +221,7 @@
 
 .block-three-service {
     width: 100%;
-    padding: 10% 0% 2% 0%;
+    padding: 5% 0% 2% 0%;
     position: relative;
 }
 
@@ -273,8 +250,8 @@
 }
 
 .munecos img {
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -350,6 +327,18 @@
     .card-swiper .swiper-slide {
         width: 100%;
         height: 310px;
+    }
+    .title-ra h1{
+        font-size: 22px;
+    }
+    .img-ra{
+        height: 200px;
+    }
+    .qr-info-ra img{
+        width: 80px;
+    }
+    .qr-info-ra span{
+        font-size: 12px;
     }
 
 }
@@ -479,7 +468,46 @@
         height: auto;
         margin-bottom: 25px;
     }
-
-
-
+   .title-ra h1{
+    font-size: 18px;
+   }
+   .wid-ra{
+    padding: 0;
+    position: relative;
+   }
+    .widget-ra{
+        width: 100%;
+        padding: 5% 0 0 0%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        position: relative;
+    }
+    .qr-info-ra{
+        width: 100%;
+        position: absolute;
+        justify-content: end;
+        z-index: 99;
+        bottom: 0;
+        padding: 0 20px;
+    }
+    .qr-info-ra span{
+        font-size: 10px;
+    }
+    .qr-info-ra img{
+        width: 60px;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    .img-ra{
+        width: 100%;
+        height: 350px;
+    }
+    .title-squad h2{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .video-ra-central{
+        height: 200px;
+    }
 }
