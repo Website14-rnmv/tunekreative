@@ -27,7 +27,7 @@
 
     .modal-body iframe {
         width: 100%;
-        height: 100%;
+        height: 500px;
     }
 
     .modal-body {
@@ -306,7 +306,7 @@
                 <a href="../index.html">Inicio</a>
                 <a href="../servicios/">Servicios</a>
                 <a href="../RA/">Realidad Aumentada</a>
-                <a href="../novedades/">Novedades</a>
+                <a href="../portafolio/">Portafolio</a>
                 <a href="../contacto/">Contacto</a>
             </div>
             <div class="redes-top">
@@ -354,7 +354,7 @@
 
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal<?php echo $row['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel"> <?php echo $row['nombre']; ?></h1>
@@ -396,7 +396,7 @@
 
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal2<?php echo $row['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel2"> <?php echo $row['nombre']; ?></h1>
@@ -439,7 +439,7 @@
 
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal3<?php echo $row['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel3"> <?php echo $row['nombre']; ?></h1>
@@ -463,10 +463,9 @@
         </div>
     </div>
     </div>
-
-    <div class="cabezas opacidadAnimation">
-        <div class="btn-cabezas">
-            <a href="">Texto aquí</a>
+    <div class="cabezas-2 opacidadAnimation">
+        <div class="btn-cabezas-2">
+            <a href="../contacto/">Contáctanos</a>
         </div>
     </div>
 
@@ -493,7 +492,7 @@
             <a href="../index.html">Incio</a>
             <a href="../servicios/">Servicios</a>
             <a href="../RA/">Realidad aumentada</a>
-            <a href="../novedades/">Novedades</a>
+            <a href="../portafolio/">Portafolio</a>
             <a href="../contacto/">Contacto</a>
         </div>
         <div class="enlaces-rapidos">

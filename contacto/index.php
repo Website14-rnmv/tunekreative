@@ -28,7 +28,7 @@
                 <a href="../index.html">Inicio</a>
                 <a href="../servicios/">Servicios</a>
                 <a href="../RA/">Realidad Aumentada</a>
-                <a href="../novedades/">Novedades</a>
+                <a href="../portafolio/">Portafolio</a>
                 <a href="../contacto/">Contacto</a>
             </div>
             <div class="redes-top">
@@ -145,7 +145,7 @@
             <a href="../index.html">Incio</a>
             <a href="../servicios/">Servicios</a>
             <a href="../RA/">Realidad aumentada</a>
-            <a href="../novedades/">Novedades</a>
+            <a href="../portafolio/">Portafolio</a>
             <a href="../contacto/">Contacto</a>
         </div>
         <div class="enlaces-rapidos">

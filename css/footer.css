@@ -168,7 +168,27 @@ footer {
     background-size: cover;
     background-repeat: none;
 }
-
+.cabezas-2{
+    background-color: #0a1324ee;
+    width: 100%;
+    background-image: url('../image/maquetado/cabezar-gradiente.png');
+    background-size: contain;
+    height: 500px;
+}
+.btn-cabezas-2{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    transform: translateY(50px);
+}
+.btn-cabezas-2 a{
+    background-color: var(--var-naranja);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px ;
+    font-weight: 500;
+}
 @media (min-width: 768px) and (max-width: 1023px) {
     footer{
         flex-direction: column;
@@ -213,6 +233,10 @@ footer {
     }
     .btn-cabezas{
         transform: translateY(50px);
+    }
+    .cabezas-2{
+        height: 320px;
+        object-fit: cover;
     }
 }
 
@@ -285,6 +309,13 @@ footer {
     }
     .btn-cabezas{
         transform: translateY(20px);
+    }
+    .btn-cabezas-2{
+        transform: translateY(0);
+    }
+    .cabezas-2{
+        height: 140px;
+        
     }
 
 }
