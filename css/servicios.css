@@ -52,11 +52,12 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    padding: 5% 10% 2% 10%;
+    padding: 5% 10% 5% 10%;
     overflow: hidden;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
 }
 
@@ -64,8 +65,7 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
-
-    z-index: -1;
+    
 }
 
 .animacion-3d video {
@@ -95,7 +95,8 @@
 
 .text-one-service p {
     color: var(--var-p);
-    font-size: 15px;
+    font-size: 18px;
+    font-style: italic;
     border-radius: 5px;
 }
 
@@ -195,7 +196,9 @@
     width: 100%;
     padding: 5% 10%;
 }
-
+.colol{
+    background-color: black;
+}
 .text-two {
     width: 100%;
     text-align: center;
@@ -359,7 +362,9 @@
     padding: 10px 40px 5px 5px;
     transition: .5s;
 }
-
+.plus-right{
+    width: 80%;
+}
 .plus-right h2 {
     text-align: left;
 
@@ -404,23 +409,29 @@
     padding: 0;
 }
 
-.mySwiper17 {}
+
 
 .mySwiper16 {
     border-radius: 5px;
     width: 100%;
-    height: 600px;
-    padding: 5%;
+    height: 700px;
+    padding: 3% 0;
 }
-
+.mySwiper36 {
+    border-radius: 5px;
+    width: 100%;
+    height: 700px;
+    padding: 3% 0;
+}
 .margin-t {
     padding-top: 0%;
 }
 
 .video-center {
     width: 100%;
-    height: 550px;
-    padding: 2% 10% 0 10%;
+    height: auto;
+    padding: 3% 10% 3% 10%;
+    background-color: black;
 }
 
 .video-center video {
@@ -474,6 +485,7 @@
     text-align: center;
     font-weight: 400;
     margin-top: 10px;
+    font-style: italic;
 }
 
 .videos-swiper video {
@@ -508,7 +520,7 @@
 }
 
 .archi-swiper {
-    margin-top: 250px;
+    padding: 0;
 }
 
 .lema {
@@ -551,7 +563,56 @@
 .moving{
     transform: translateY(120px);
 }
+.visualmente{
+    width: 100%;
+    padding: 0% 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-visual{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+.img-visual img{
+    width: 100%;
+    transform: translateY(50px);
+}
+.text-visual{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.text-visual h2{
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.696);
+    font-size: 35px;
+    line-height: 55px;
+}
 
+.text-visual p{
+    font-size: 16px;
+    color: var(--var-p);
+    font-weight: 400;
+    margin-top: 10px;
+}
+.btn-global{
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+}
+.btn-global a{
+    text-decoration: none;
+    color: #47c8f7;
+    background-color: #253858;
+    font-weight: 600;
+    border: 2px solid #47c8f7;
+    padding: 10px 25px;
+    border-radius: 22px;
+}
 @media (min-width: 768px) and (max-width: 1023px) {
     .title-service h1 {
         font-size: 35px;
@@ -695,7 +756,7 @@
     }
 
     .text-scroll h5 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .img-replic {
@@ -730,6 +791,25 @@
     }
     .lema h5{
         font-size: 20px;
+    }
+    .left-combo{
+        padding: 0 5% 5% 5%;
+    }
+    .visualmente{
+        padding: 5% 5% 0% 5%;
+        flex-direction: column;
+    }
+    .text-visual{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        order: -1;
+    }
+    .lefting{
+        padding:2% 5% 0 5%;
+    }
+    .plus-right{
+        width: 100%;
     }
 }
 
@@ -938,8 +1018,8 @@
     }
 
     .column-img .swiper-slide {
-        width: 60px !important;
-        height: 60px;
+        width: 70px !important;
+        height: 40px;
     }
 
     .lefs {
@@ -1001,6 +1081,10 @@
     .mySwiper16{
         height: 300px;
     }
+    .mySwiper36{
+        height: 300px;
+
+    }
     .frase{
         padding:5% 2% 2% 2%;
     }
@@ -1010,6 +1094,7 @@
     }
     .video-center{
         padding: 0;
+        height: auto;
     }
     .title-archi h2{
         font-size: 25px;
@@ -1026,5 +1111,38 @@
     .lema h5{
         font-size: 18px;
         line-height: 25px;
+    }
+    .visualmente{
+        padding: 5% 5% 0% 5%;
+        flex-direction: column;
+    }
+    .text-visual{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        order: -1;
+    }
+    .btn-global a{
+        display: block;
+        font-size: 12px;
+    }
+    .text-visual h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .img-visual{
+        width: 100%;
+    }
+    .img-visual img{
+        transform: translateY(20px);
+    }
+    .title-archi{
+        padding-top: 5%;
+    }
+    .video-center video{
+        transform: translateY(10px);
+    }
+    .plus-right{
+        width: 100%;
     }
 }

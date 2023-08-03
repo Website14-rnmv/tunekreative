@@ -138,8 +138,7 @@ footer {
 .cabezas{
     width: 100%;
     height: auto;
-    background-color: #000000d6;
-
+    background-color: black;
 }
 .img-cabezas{
     width: 100%;
@@ -162,6 +161,12 @@ footer {
     text-decoration: none;
     padding: 10px 15px ;
     font-weight: 500;
+    font-size: 23px;
+}
+.img-cabe{
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

@@ -500,19 +500,19 @@
             <h3>Contacto</h3>
             <div class="contact-foot">
                 <span>Correo:</span>
-                <a href="">usuario@gmail.com</a>
+                <a href="mailto:tunekstudio25@gmail.com">tunekstudio25@gmail.com</a>
             </div>
             <div class="contact-foot">
                 <span>Teléfono:</span>
-                <a href="">+51 597 899 566</a>
+                <a href="tel:957343955">+51 957 343 955</a>
             </div>
         </div>
         <div class="redes-foot">
             <h3>Síguenos en:</h3>
             <div class="icon-red-foot">
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a target="_blank" href="https://www.facebook.com/TunekayaCreaty"><i class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/__tunek__/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@tunek_"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </div>
     </footer>
